@@ -1,0 +1,31 @@
+.background {
+    background: linear-gradient(to right, dimgray, gray);
+}
+
+.source-date {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid lightgray;
+    border-top: 3px solid lightgray;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.source-date p {
+    font-size: 0.6rem;
+}
+
+.card-title {
+    font-size: 0.8rem;
+    height: 70px;
+}
+
+.card-text {
+    font-size: 0.7rem;
+    height: 150px;
+}
+
+.sticky-top{
+    position: sticky;
+    top: 0;
+}
